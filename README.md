@@ -10,11 +10,9 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [OpenWrt builder add-on](./openwrt-builder)
 
 ![Supports amd64 Architecture][amd64-shield]
-
-_Example add-on to use as a blueprint for new add-ons._
 
 <!--
 

@@ -1,0 +1,16 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: OpenWrt builder add-on
+version: "1.2.0"
+slug: openwrt-builder
+description: OpenWrt builder add-on
+url: "https://github.com/GrumpyMeow/homeassistant-addons/tree/main/openwrt-builder"
+arch:
+  - amd64
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/home-assistant/{arch}-addon-image-builder"
